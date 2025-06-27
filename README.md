@@ -80,6 +80,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 *Muthu Kumaran P*  
 💼 Passionate about web development and electronics.  
-🔗 [LinkedIn](https://www.linkedin.com/in/plmuthukumaran)  [GitHub](https://github.com/PL-MUTHUKUMARAN)
+🔗 [LinkedIn](https://www.linkedin.com/in/plmuthukumaran) | [GitHub](https://github.com/PL-MUTHUKUMARAN)
 
 ---
