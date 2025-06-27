@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="display" value="" readonly/>
+
+    <div class="container">
+        <select id="mode" name="mode">
+            <option value="degree">Degree</option>
+            <option value="radian">Radian</option>
+        </select>
+        <button onclick="appendvalue('(')">(</button>
+        <button onclick="appendvalue(')')">)</button>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="appendvalue('sin(')">sin</button>
+        <button onclick="appendvalue('cos(')">cos</button>
+        <button onclick="appendvalue('tan(')">tan</button>
+        <button onclick="deleteValue()">D</button>
+        <button onclick="appendvalue('sin⁻¹(')">sin<span>-1</span></button>
+        <button onclick="appendvalue('cos⁻¹(')">cos<span>-1</span></button>
+        <button onclick="appendvalue('tan⁻¹(')">tan<span>-1</span></button>
+        <button onclick="appendvalue('log(')">log</button>
+        <button onclick="appendvalue('ln(')">ln</button>
+        <button onclick="appendvalue('^2')">x<span>2</span></button>
+        <button onclick="appendvalue('^-1')">x<span>-1</span></button>
+        <button onclick="appendvalue('e')">e</button>
+        <button onclick="appendvalue('^')">^</button> 
+        <button onclick="appendvalue('π')">π</button>
+        <button onclick="appendvalue('√(')">√</button>
+        <button onclick="appendvalue('+')">+</button>
+        <button onclick="appendvalue(7)">7</button>
+        <button onclick="appendvalue(8)">8</button>
+        <button onclick="appendvalue(9)">9</button>
+        <button onclick="appendvalue('-')">-</button>
+        <button onclick="appendvalue(4)">4</button>
+        <button onclick="appendvalue(5)">5</button>
+        <button onclick="appendvalue(6)">6</button>
+        <button onclick="appendvalue('x')">X</button>
+        <button onclick="appendvalue(1)">1</button> 
+        <button onclick="appendvalue(2)">2</button>
+        <button onclick="appendvalue(3)">3</button>
+        <button onclick="appendvalue('/')">/</button>
+        <button onclick="appendvalue('%')">%</button>
+        <button onclick="appendvalue(0)">0</button>
+        <button onclick="appendvalue('.')">.</button>
+        <button onclick="calculate()" id="calculate">=</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
